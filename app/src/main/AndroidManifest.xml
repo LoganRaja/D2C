@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.compunetconnections.d2c" >
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VerifyActivity"
+            android:label="Verify" >
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Home" >
+        </activity>
+        <activity
+            android:name=".PinverifyActivity"
+            android:label="Pin verify" >
+        </activity>
+        <activity
+            android:name=".ForgotPinActivity"
+            android:label="Forgot Pin" >
+        </activity>
+        <activity
+            android:name=".UpdatePinActivity"
+            android:label="Update Pin" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registration" >
+        </activity>
+    </application>
+
+</manifest>

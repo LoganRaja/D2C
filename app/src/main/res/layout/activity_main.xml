@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_margin="@dimen/margin"
+    android:text="Existing User"
+    android:textAllCaps="false"
+    android:id="@+id/existing_user"
+    android:textSize="@dimen/text_large"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin"
+        android:text="New User"
+        android:textAllCaps="false"
+        android:id="@+id/new_user"
+        android:textSize="@dimen/text_large"/>
+</LinearLayout>

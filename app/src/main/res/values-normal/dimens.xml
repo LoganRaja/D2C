@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="text_tiny">12sp</dimen>
+    <dimen name="text_smaller">14sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+
+    <dimen name="padding">18dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+
+    <dimen name="margin">18dp</dimen>
+
+    <dimen name="sliding_tab_height">60dp</dimen>
+
+
+</resources>
